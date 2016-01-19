@@ -20,6 +20,19 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: normal;
 }
 
+h2 {
+  font-family: $gothamhtf-bold;
+  color: #313132;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: $gothamhtf-black;
+  color: #ef4136;
+  font-size: 36px;
+}
+
 img[style*="right"] {
   margin: 0 0 10px 20px;
   clear: right;
@@ -32,6 +45,7 @@ img[style*="left"] {
 
 p {
   margin: 0 0 20px;
+  color: #6d6e71;
 }
 
 ul {
