@@ -16,10 +16,10 @@
   </div>
   <ul>
     <li>
-      <a href="name.php"><img src="index/name-s.jpg" alt=""/></a>
+      <a href="BDEddie_Site_Homepage_v2.php"><img src="index/BDEddie_Site_Homepage_v2-s.jpg" alt=""/></a>
       <p>
-        name
-        <a href="index/name.jpg">Preview</a>
+        BDEddie_Site_Homepage_v2
+        <a href="index/BDEddie_Site_Homepage_v2.jpg">Preview</a>
       </p>
     </li>
   </ul>
