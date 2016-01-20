@@ -431,7 +431,7 @@ body {
   font-size: 24px;
   background: url('../images/bg/bg.jpg');
   font-family: gothamhtf-book;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 *, :after, :before {
@@ -467,6 +467,10 @@ img[style*="right"] {
 img[style*="left"] {
   margin: 0 20px 10px 0;
   clear: left;
+}
+
+img {
+  display: block;
 }
 
 p {
@@ -553,6 +557,9 @@ ul li {
   position: relative;
   top: 60px;
 }
+.site-header .logo a img {
+  display: inline;
+}
 .site-header .logo a h1 {
   text-indent: -9999px;
   font-size: 0;
@@ -561,7 +568,7 @@ ul li {
 .site-header .logo .social-share {
   position: absolute;
   top: 40px;
-  right: 0;
+  right: 4%;
   padding: 0px;
   height: 52px;
 }
@@ -599,8 +606,13 @@ ul li {
   overflow: hidden;
 }
 
+.content-wrapper > div {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
 .site-container {
-  width: 1464px;
+  width: 1600px;
   margin: 0 auto;
   position: relative;
 }
@@ -621,18 +633,27 @@ ul li {
 .b-links {
   margin-bottom: 56px;
 }
+.b-links:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
 .b-links a {
-  display: inline-block;
-  margin-right: 3%;
+  float: left;
+  margin-right: 4%;
 }
 .b-links a:last-child {
   margin-right: 0;
 }
-.b-links a img {
-  display: block;
-}
 .b-links a:hover {
   opacity: 0.6;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .b-about-us {
@@ -666,8 +687,17 @@ ul li {
   position: relative;
   z-index: 0;
   padding: 80px 0;
+  background: url('../images/bg/bg-team.jpg') no-repeat;
 }
 .b-team:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-team .col-wrapper:after {
   content: " ";
   display: block;
   height: 0;
@@ -684,22 +714,32 @@ ul li {
 }
 .b-team .col-1, .b-team .col-3 {
   width: 565px;
+}
+.b-team .foto-logo .col-1, .b-team .foto-logo .col-3 {
   padding-top: 100px;
 }
-.b-team:before {
-  content: '';
-  width: 1600px;
-  bottom: 0;
-  left: 50%;
-  -moz-transform: translate(-50%, 0);
-  -ms-transform: translate(-50%, 0);
-  -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
-  display: block;
-  height: 100%;
-  position: absolute;
-  background: url('../images/bg/bg-team.jpg');
-  z-index: -1;
+.b-team .foto-logo .col-2 img:nth-child(1) {
+  margin-bottom: 70px;
+}
+.b-team .foto-logo .col-2 img {
+  display: inline;
+}
+.b-team .description .col-3 {
+  float: right;
+}
+.b-team .contact .col {
+  float: none;
+  margin: 0 auto;
+}
+.b-team .contact .col:hover {
+  background: brown;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.b-team p {
+  color: #bebfc0;
 }
 
 /*

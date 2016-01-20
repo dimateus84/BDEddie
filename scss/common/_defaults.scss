@@ -8,7 +8,7 @@ body {
   font-size: 24px;
   background: image-url("bg/bg.jpg");
   font-family: $gothamhtf-book;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 *, :after, :before {
@@ -42,6 +42,10 @@ img[style*="right"] {
 img[style*="left"] {
   margin: 0 20px 10px 0;
   clear: left;
+}
+
+img {
+  display: block;
 }
 
 p {

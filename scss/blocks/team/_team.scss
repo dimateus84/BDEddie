@@ -3,6 +3,11 @@
   z-index: 0;
   padding: 80px 0;
   @include clearfix();
+  background: image_url("bg/bg-team.jpg") no-repeat;
+
+  .col-wrapper {
+    @include clearfix();
+  }
 
   .col {
     float: left;
@@ -15,19 +20,46 @@
 
   .col-1, .col-3 {
     width: 565px;
-    padding-top: 100px;
   }
 
-  &:before {
-    content: '';
-    width: 1600px;
-    bottom: 0;
-    left: 50%;
-    @include transform(translate(-50%, 0));
-    display: block;
-    height: 100%;
-    position: absolute;
-    background: image_url("bg/bg-team.jpg");
-    z-index: -1;
+  .foto-logo {
+
+    .col-1, .col-3 {
+      padding-top: 100px;
+    }
+
+    .col-2 {
+
+      img:nth-child(1) {
+        margin-bottom: 70px;
+      }
+
+      img {
+        display: inline;
+      }
+
+    }
+  }
+
+  .description {
+
+    .col-3 {
+      float: right;
+    }
+  }
+
+  .contact .col {
+
+      float: none;
+      margin: 0 auto;
+
+    &:hover {
+      background: brown;
+      @include transition(all 0.3s);
+    }
+  }
+
+  p {
+    color: #bebfc0
   }
 }

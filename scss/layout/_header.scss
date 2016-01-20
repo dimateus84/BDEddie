@@ -77,6 +77,10 @@
       position: relative;
       top: 60px;
 
+      img {
+        display: inline;
+      }
+
       h1 {
         @include text-hide();
       }
@@ -85,7 +89,7 @@
     .social-share {
       position: absolute;
       top: 40px;
-      right: 0;
+      right: 4%;
       padding: 0px;
       height: 52px;
 

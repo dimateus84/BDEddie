@@ -1,20 +1,18 @@
   .b-links {
     margin-bottom: 56px;
+    @include clearfix();
 
     a {
-      display: inline-block;
-      margin-right: 3%;
+      float: left;
+      margin-right: 4%;
 
       &:last-child {
         margin-right: 0;
       }
 
-      img {
-        display: block;
-      }
-
       &:hover {
         opacity: 0.6;
+        @include transition(all 0.3s);
       }
     }
   }

@@ -46,28 +46,54 @@
       </div>
 
       <div class="b-team">
-        <div class="col col-1">
-          <img src="theme/images/tmp/portrait-1.jpg" alt="p1"/>
-          <h3>Terry McGuire</h3>
-          <p>Leasing Director</p>
-          <p>Terry has been with B.D. Eddie Enterprises for 16 years and has 20 years of experience in real estate
-            appraisal, management, leasing and development. Terry can help with office and retail space for lease in
-            Edmond and Oklahoma City, in addition to our commercial land available for development.
-          </p>
+        <div class="col-wrapper foto-logo">
+          <div class="col col-1">
+            <img src="theme/images/tmp/portrait-1.jpg" alt="p1"/>
+          </div>
+          <div class="col col-2">
+            <img src="theme/images/tmp/the-team-logo.png" alt="team-logo"/>
+            <img src="theme/images/tmp/ampersand.png" alt="amp"/>
+
+          </div>
+          <div class="col col-3">
+            <img src="theme/images/tmp/portrait-2.jpg" alt="p1"/>
+          </div>
         </div>
-        <div class="col col-2">
-          <img src="theme/images/tmp/the-team-logo.png" alt="team-logo"/>
-          <img src="theme/images/tmp/ampersand.png" alt="amp"/>
-          <img src="theme/images/tmp/contanct.png" alt="cont"/>
+
+        <div class="col-wrapper description">
+          <div class="col col-1">
+            <h3>Terry McGuire</h3>
+
+            <p>Leasing Director</p>
+
+            <p>Terry has been with B.D. Eddie Enterprises for 16 years and has 20 years of experience in real estate
+              appraisal, management, leasing and development. Terry can help with office and retail space for lease in
+              Edmond and Oklahoma City, in addition to our commercial land available for development.
+            </p>
+          </div>
+
+          <div class="col col-3">
+            <h3>Clay T. Farha</h3>
+
+            <p>President</p>
+
+            <p>Clay has been with B.D. Eddie Enterprises for 30 years and has earned a Certified Commercial Investment
+              Manager (CCIM) real estate designation.
+            </p>
+          </div>
+
         </div>
-        <div class="col col-3">
-          <img src="theme/images/tmp/portrait-2.jpg" alt="p1"/>
-          <h3>Clay T. Farha</h3>
-          <p>President</p>
-          <p>Clay has been with B.D. Eddie Enterprises for 30 years and has earned a Certified Commercial Investment
-            Manager (CCIM) real estate designation.
-          </p>
+
+        <div class="col-wrapper contact">
+          <div class="col col-2">
+
+            <a href="#">
+              <img src="theme/images/tmp/contanct.png" alt="cont"/>
+            </a>
+
+          </div>
         </div>
+
       </div>
     </div>
   </div>
