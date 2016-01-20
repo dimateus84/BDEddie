@@ -3,16 +3,16 @@
 <body class="front page page-home">
 <div class="outer-wrapper">
   <?php include 'tpl/layout/header.inc'; ?>
-  <div class="b-slider">
-    <div class="flexslider">
-      <ul class="slides">
-        <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
-        <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
-      </ul>
-    </div>
-  </div>
   <div class="inner-wrapper site-container">
     <div class="content-wrapper">
+      <div class="b-slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
+            <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
+          </ul>
+        </div>
+      </div>
       <div class="b-links">
         <a href="#">
           <img src="theme/images/tmp/link-work.jpg" alt="1"/>
@@ -93,11 +93,105 @@
 
           </div>
         </div>
-
       </div>
+
+
+      <div class="b-clients">
+        <div class="clients-logo">
+          <img src="theme/images/tmp/the-clients-logo.png" alt="cliens"/>
+        </div>
+        <div class="clients-list-wrapper">
+          <div class="left-part">
+            <h3>RETAIL</h3>
+
+            <div class="left-client-list-wrapper">
+
+              <div class="left-list">
+                <p>A&W Restaurants</p>
+
+                <p>Barnes & Noble</p>
+
+                <p>Big Sky Bread</p>
+
+                <p>Church's Chicken</p>
+
+                <p>Circle K</p>
+
+                <p>City Bites</p>
+
+                <p>Freddy's Frozen Custard</p>
+
+                <p>KFC</p>
+
+                <p>Long John Silver's</p>
+
+                <p>Mobile Macsters</p>
+
+                <p>Olive + Co</p>
+              </div>
+
+              <div class="right-list">
+                <p>Options 2 Design</p>
+
+                <p>Pack N' Ship</p>
+
+                <p>Paper N' More</p>
+
+                <p>Perk Place Cafe</p>
+
+                <p>Pole Position Raceway</p>
+
+                <p>Prim</p>
+
+                <p>ProCleaners</p>
+
+                <p>Snow Pea</p>
+
+                <p>Swiss Cleaners</p>
+
+                <p>Tony Foss Flowers</p>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="right-pert">
+            <h3>OFFICE</h3>
+
+            <p>American Eagle Title Co.</p>
+
+            <p>Breast Imaging of Oklahoma</p>
+
+            <p>The Cotton Law Firm</p>
+
+            <p>Edward Jones</p>
+
+            <p>EMSA</p>
+
+            <p>Farmer's Insurance/Mike </p>
+
+            <p>Gaddis Agency</p>
+
+            <p>The Hays Group, Inc.</p>
+
+            <p>Michael Bay and Associates</p>
+
+            <p>Nick Massey Householder </p>
+
+            <p>Group Financial</p>
+
+            <p>Quinstreet/Surehits</p>
+
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
-  <?php include 'tpl/layout/footer.inc'; ?>
+</div>
+<?php include 'tpl/layout/footer.inc'; ?>
 </div>
 </body>
 </html>

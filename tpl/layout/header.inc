@@ -1,15 +1,14 @@
 <header id="site-header" class="site-header">
-  <nav class="nav">
-    <a class="btn-nav" href="#">Navigation Menu</a>
-    <ul class="menu">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">AVAILABLE PROPERTIES</a></li>
-      <li><a href="#">DEVELOPMENT PROJECTS</a></li>
-      <li><a href="#">CONTACT</a></li>
-    </ul>
-  </nav>
   <div class="site-container">
-
+    <nav class="nav">
+      <a class="btn-nav" href="#">Navigation Menu</a>
+      <ul class="menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">AVAILABLE PROPERTIES</a></li>
+        <li><a href="#">DEVELOPMENT PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
     <div class="logo">
       <a href="BDEddie_Site_Homepage_v2.php"><img src="theme/images/logo.png" alt="logo"/>
 

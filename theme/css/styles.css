@@ -489,8 +489,11 @@ ul li {
 
 .site-header {
   height: 276px;
-  background: url('../images/bg/header-bg.jpg') no-repeat;
   position: relative;
+}
+.site-header .site-container {
+  background: url('../images/bg/header-bg.jpg') no-repeat;
+  height: 100%;
 }
 .site-header .nav {
   position: relative;
@@ -567,7 +570,7 @@ ul li {
 }
 .site-header .logo .social-share {
   position: absolute;
-  top: 40px;
+  top: 80px;
   right: 4%;
   padding: 0px;
   height: 52px;
@@ -600,8 +603,6 @@ ul li {
 }
 
 .outer-wrapper {
-  width: 1600px;
-  background: #ffffff;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -611,10 +612,31 @@ ul li {
   padding-right: 4%;
 }
 
+.site-footer .site-container {
+  background: #818285 url('../images/bg/bg-footer.jpg') no-repeat;
+  height: 100%;
+}
+.site-footer .site-container > div {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.site-footer .footer-img-logo {
+  padding-top: 282px;
+  margin-bottom: 45px;
+}
+.site-footer p {
+  font-size: 18px;
+  color: #ffffff;
+}
+.site-footer .address {
+  margin-bottom: 90px;
+}
+
 .site-container {
   width: 1600px;
   margin: 0 auto;
   position: relative;
+  background: #ffffff;
 }
 .site-container:after {
   content: " ";
@@ -657,9 +679,9 @@ ul li {
 }
 
 .b-about-us {
-  border-top: 1px solid #d6d6d7;
   padding-top: 56px;
   margin-bottom: 100px;
+  position: relative;
 }
 .b-about-us:after {
   content: " ";
@@ -668,6 +690,14 @@ ul li {
   clear: both;
   overflow: hidden;
   visibility: hidden;
+}
+.b-about-us:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 92%;
+  border-top: 1px solid #d6d6d7;
+  top: 0;
 }
 .b-about-us .col {
   float: left;
@@ -684,8 +714,6 @@ ul li {
 }
 
 .b-team {
-  position: relative;
-  z-index: 0;
   padding: 80px 0;
   background: url('../images/bg/bg-team.jpg') no-repeat;
 }
@@ -740,6 +768,56 @@ ul li {
 }
 .b-team p {
   color: #bebfc0;
+}
+
+.b-clients {
+  background: url('../images/bg/bg-clients.jpg') no-repeat;
+  padding-bottom: 20px;
+}
+.b-clients .clients-logo img {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.b-clients .clients-list-wrapper:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-clients .clients-list-wrapper h3 {
+  border-bottom: 2px solid #6d6e71;
+  margin-top: 0;
+}
+.b-clients .clients-list-wrapper p {
+  margin: 0;
+  letter-spacing: 2px;
+}
+.b-clients .clients-list-wrapper .left-part {
+  float: left;
+  width: 66%;
+}
+.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list, .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
+  float: left;
+}
+.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list {
+  width: 55%;
+}
+.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
+  width: 45%;
+}
+.b-clients .clients-list-wrapper .right-pert {
+  float: right;
+  width: 30%;
 }
 
 /*

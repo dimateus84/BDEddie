@@ -1,7 +1,11 @@
 .site-header {
   height: 276px;
-  background: image_url("bg/header-bg.jpg") no-repeat;
   position: relative;
+
+  .site-container {
+    background: image_url("bg/header-bg.jpg") no-repeat;
+    height: 100%;
+  }
 
   .nav {
     position: relative;
@@ -88,7 +92,7 @@
 
     .social-share {
       position: absolute;
-      top: 40px;
+      top: 80px;
       right: 4%;
       padding: 0px;
       height: 52px;
