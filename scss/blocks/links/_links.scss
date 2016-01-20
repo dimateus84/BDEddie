@@ -1,0 +1,20 @@
+  .b-links {
+    margin-bottom: 56px;
+
+    a {
+      display: inline-block;
+      margin-right: 3%;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        display: block;
+      }
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }

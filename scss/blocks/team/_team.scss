@@ -1,0 +1,17 @@
+.b-team {
+  position: relative;
+  z-index: 0;
+
+  &:before {
+      content: '';
+      width: 1600px;
+      bottom: 0;
+      left: 50%;
+      @include transform(translate(-50%, 0));
+      display: block;
+      height: 100%;
+      position: absolute;
+      background: image_url("bg/bg-team.jpg");
+      z-index: -1;
+  }
+}

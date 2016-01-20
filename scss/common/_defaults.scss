@@ -5,7 +5,7 @@ html {
 body {
   min-height: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 24px;
   background: image-url("bg/bg.jpg");
   font-family: $gothamhtf-book;
   line-height: 1.6;
@@ -25,6 +25,7 @@ h2 {
   color: #313132;
   font-size: 30px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 h3 {

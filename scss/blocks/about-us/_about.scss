@@ -1,0 +1,23 @@
+.b-about-us {
+  border-top: 1px solid #d6d6d7;
+  padding-top: 56px;
+  margin-bottom: 100px;
+  @include clearfix();
+
+ .col {
+   float: left;
+   margin-right: 3%;
+ }
+
+  .col-1 {
+    width: 20%;
+  }
+
+  .col-2, .col-3 {
+    width: 37%;
+  }
+
+  .col-3 {
+    margin-right: 0%;
+  }
+}
