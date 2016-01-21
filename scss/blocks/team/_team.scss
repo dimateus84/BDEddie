@@ -3,10 +3,6 @@
   @include clearfix();
   background: image_url("bg/bg-team.jpg") no-repeat;
 
-  .col-wrapper {
-    @include clearfix();
-  }
-
   img {
     width: 100%;
     height: auto;
@@ -33,11 +29,15 @@
     margin-bottom: -5%;
   }
 
-  .foto-logo .center{
-    width: 14.5%;
-    float: left;
-    margin-left: 4.3%;
-    margin-top: 8%;
+  .foto-descriprion {
+    @include clearfix();
+
+    .center{
+      width: 14.5%;
+      float: left;
+      margin-left: 4.3%;
+      margin-top: 8%;
+    }
   }
 
   .contact .center {
@@ -52,65 +52,6 @@
   p {
     color: #bebfc0
   }
-
 }
 
 
-/*.foto-logo {
-
-    .col-2 {
-      margin: 0 auto;
-    }
-  }
-
-  .col {
-    float: left;
-  }
-
-  .col-2 {
-    width: 22.5%;
-    text-align: center;
-  }
-
-  .col-1, .col-3 {
-    width: 38.5%;;
-  }
-
-  .foto-logo {
-
-    .col-1, .col-3 {
-      padding-top: 6.5%;
-    }
-
-    .col-2 {
-
-      *//*padding: 0 4%;*//*
-
-      img:nth-child(1) {
-        margin-bottom: 33%;
-      }
-
-      img {
-        display: inline;
-      }
-
-    }
-  }
-
-  .description {
-
-    .col-3 {
-      float: right;
-    }
-  }
-
-  .contact .col {
-
-      float: none;
-      margin: 0 auto;
-
-    &:hover {
-      background: brown;
-      @include transition(all 0.3s);
-    }
-  }*/
