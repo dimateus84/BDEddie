@@ -739,36 +739,36 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.b-team .col {
-  float: left;
+.b-team img {
+  width: 100%;
+  height: auto;
 }
-.b-team .col-2 {
-  width: 22.5%;
-  text-align: center;
-}
-.b-team .col-1, .b-team .col-3 {
-  width: 38.5%;
-}
-.b-team .foto-logo .col-1, .b-team .foto-logo .col-3 {
-  padding-top: 6.5%;
-}
-.b-team .foto-logo .col-2 {
-  padding: 0 4%;
-}
-.b-team .foto-logo .col-2 img:nth-child(1) {
-  margin-bottom: 33%;
-}
-.b-team .foto-logo .col-2 img {
-  display: inline;
-}
-.b-team .description .col-3 {
-  float: right;
-}
-.b-team .contact .col {
-  float: none;
+.b-team .center {
   margin: 0 auto;
 }
-.b-team .contact .col:hover {
+.b-team .left, .b-team .right {
+  width: 38.5%;
+}
+.b-team .left {
+  float: left;
+}
+.b-team .right {
+  float: right;
+}
+.b-team .team-logo {
+  width: 14.5%;
+  margin-bottom: -5%;
+}
+.b-team .foto-logo .center {
+  width: 14.5%;
+  float: left;
+  margin-left: 4.3%;
+  margin-top: 8%;
+}
+.b-team .contact .center {
+  width: 22.5%;
+}
+.b-team .contact .center:hover {
   background: brown;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -778,11 +778,67 @@ ul li {
 .b-team p {
   color: #bebfc0;
 }
-.b-team img {
-  width: 100%;
-  height: auto;
-}
 
+/*.foto-logo {
+
+    .col-2 {
+      margin: 0 auto;
+    }
+  }
+
+  .col {
+    float: left;
+  }
+
+  .col-2 {
+    width: 22.5%;
+    text-align: center;
+  }
+
+  .col-1, .col-3 {
+    width: 38.5%;;
+  }
+
+  .foto-logo {
+
+    .col-1, .col-3 {
+      padding-top: 6.5%;
+    }
+
+    .col-2 {
+
+      */
+/*padding: 0 4%;*/
+                          /*
+
+      img:nth-child(1) {
+        margin-bottom: 33%;
+      }
+
+      img {
+        display: inline;
+      }
+
+    }
+  }
+
+  .description {
+
+    .col-3 {
+      float: right;
+    }
+  }
+
+  .contact .col {
+
+      float: none;
+      margin: 0 auto;
+
+    &:hover {
+      background: brown;
+      @include transition(all 0.3s);
+    }
+  }*/
 .b-clients {
   background: url('../images/bg/bg-clients.jpg') no-repeat;
   padding-bottom: 19px;
@@ -1087,6 +1143,35 @@ html[xmlns] .flexslider .slides {
   }
   .site-header .logo .social-share a {
     margin-left: 0px;
+  }
+
+  .b-links a {
+    float: none;
+    margin-right: 0%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .b-about-us {
+    text-align: justify;
+  }
+  .b-about-us .col {
+    float: left;
+    margin-right: 2%;
+  }
+  .b-about-us .col-1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .b-about-us .col-2, .b-about-us .col-3 {
+    width: 100%;
+  }
+  .b-about-us .col-3 {
+    margin-right: 0%;
+    border-top: 1px solid #d6d6d7;
+    padding-top: 2%;
   }
 }
 @media (min-width: 768px) and (max-width: 1129px) {

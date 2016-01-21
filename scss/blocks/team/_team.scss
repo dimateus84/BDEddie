@@ -7,6 +7,62 @@
     @include clearfix();
   }
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .left, .right {
+    width: 38.5%;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .team-logo {
+    width: 14.5%;
+    margin-bottom: -5%;
+  }
+
+  .foto-logo .center{
+    width: 14.5%;
+    float: left;
+    margin-left: 4.3%;
+    margin-top: 8%;
+  }
+
+  .contact .center {
+    width: 22.5%;
+
+    &:hover {
+      background: brown;
+      @include transition(all 0.3s);
+    }
+  }
+
+  p {
+    color: #bebfc0
+  }
+
+}
+
+
+/*.foto-logo {
+
+    .col-2 {
+      margin: 0 auto;
+    }
+  }
+
   .col {
     float: left;
   }
@@ -28,7 +84,7 @@
 
     .col-2 {
 
-      padding: 0 4%;
+      *//*padding: 0 4%;*//*
 
       img:nth-child(1) {
         margin-bottom: 33%;
@@ -57,14 +113,4 @@
       background: brown;
       @include transition(all 0.3s);
     }
-  }
-
-  p {
-    color: #bebfc0
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
+  }*/
