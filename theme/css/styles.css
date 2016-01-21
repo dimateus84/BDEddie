@@ -1093,7 +1093,7 @@ html[xmlns] .flexslider .slides {
     letter-spacing: 1px;
   }
   .site-header .logo {
-    width: 70%;
+    width: 90%;
   }
   .site-header .logo a {
     position: static;
@@ -1189,7 +1189,7 @@ html[xmlns] .flexslider .slides {
     text-align: center;
   }
   .b-clients .clients-list-wrapper p {
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
   }
   .b-clients .clients-list-wrapper .left-part {
