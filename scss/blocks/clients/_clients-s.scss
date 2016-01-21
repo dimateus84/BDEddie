@@ -1,0 +1,44 @@
+.b-clients {
+  background: image_url("bg/bg-clients.jpg") repeat-y;
+  padding-bottom: 19px;
+
+  .clients-logo img{
+    width: 30%;
+  }
+
+  .clients-list-wrapper {
+
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .left-part {
+      width: 48%;
+      padding-right: 2%;
+
+      .left-client-list-wrapper {
+
+        .left-list, .right-list {
+          float: none;
+        }
+
+        .left-list {
+          width: 100%;
+        }
+
+        .right-list {
+         width: 100%;
+        }
+      }
+    }
+
+    .right-pert {
+      width: 48%;
+    }
+  }
+}

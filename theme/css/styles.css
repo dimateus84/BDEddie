@@ -625,6 +625,11 @@ ul li {
 .site-footer .footer-img-logo {
   padding-top: 282px;
   margin-bottom: 45px;
+  width: 100%;
+}
+.site-footer .footer-img-logo img {
+  width: 100%;
+  height: auto;
 }
 .site-footer p {
   font-size: 18px;
@@ -1095,6 +1100,20 @@ html[xmlns] .flexslider .slides {
     margin-left: 0px;
   }
 
+  .site-footer {
+    text-align: center;
+  }
+  .site-footer .footer-img-logo {
+    padding-top: 230px;
+    margin-bottom: 45px;
+  }
+  .site-footer .footer-img-logo img {
+    margin: 0 auto;
+  }
+  .site-footer .address {
+    margin-bottom: 30px;
+  }
+
   .b-links a {
     float: none;
     margin-right: 0%;
@@ -1146,6 +1165,37 @@ html[xmlns] .flexslider .slides {
   }
   .b-team h3, .b-team p {
     text-align: center;
+  }
+
+  .b-clients {
+    background: url('../images/bg/bg-clients.jpg') repeat-y;
+    padding-bottom: 19px;
+  }
+  .b-clients .clients-logo img {
+    width: 30%;
+  }
+  .b-clients .clients-list-wrapper h3 {
+    text-align: center;
+  }
+  .b-clients .clients-list-wrapper p {
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .b-clients .clients-list-wrapper .left-part {
+    width: 48%;
+    padding-right: 2%;
+  }
+  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list, .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
+    float: none;
+  }
+  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list {
+    width: 100%;
+  }
+  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
+    width: 100%;
+  }
+  .b-clients .clients-list-wrapper .right-pert {
+    width: 48%;
   }
 }
 @media (min-width: 768px) and (max-width: 1129px) {

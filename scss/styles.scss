@@ -36,11 +36,13 @@
   //layout
   @import "layout/site-container/site-container-s";
   @import "layout/header/header-s";
+  @import "layout/footer/footer-s";
 
   //blocks
   @import "blocks/links/links-s";
   @import "blocks/about-us/about-s";
   @import "blocks/team/team-s";
+  @import "blocks/clients/clients-s";
 }
 
 @media (min-width: $width-tablet) and (max-width: 1129px) {
