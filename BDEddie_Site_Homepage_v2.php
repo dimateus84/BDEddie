@@ -187,6 +187,5 @@
   </div>
 </div>
 <?php include 'tpl/layout/footer.inc'; ?>
-</div>
 </body>
 </html>
