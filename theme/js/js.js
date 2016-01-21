@@ -24,6 +24,7 @@
 
   function init() {
     initFlexslider();
+    initMobileNav('.nav');
 
   }
 
@@ -41,6 +42,30 @@
         nextText: ""
       });
     });
+  }
+
+  function initMobileNav(navWrapper) {
+
+    var $navWrapper = $(navWrapper);
+    var $btn = $navWrapper.find('.btn-nav');
+
+    $btn.on('click touch', checkNav);
+
+    $('html').on('click touch', function (e) {
+      if (!$(e.target).closest($navWrapper).length && $navWrapper.hasClass('nav-active')) {
+        $navWrapper.removeClass('nav-active');
+      }
+    });
+
+    function checkNav(e) {
+      e.preventDefault();
+
+      if ($navWrapper.hasClass('nav-active')) {
+        $navWrapper.removeClass('nav-active');
+      } else {
+        $navWrapper.addClass('nav-active');
+      }
+    }
   }
 
 })(jQuery);

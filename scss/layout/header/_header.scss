@@ -1,5 +1,5 @@
 .site-header {
-  height: 276px;
+  height: 275px;
   position: relative;
 
   .site-container {
@@ -75,14 +75,16 @@
   }
 
   .logo {
-    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 
     a {
       position: relative;
       top: 60px;
 
       img {
-        display: inline;
+        height: auto;
+        width: 100%;
       }
 
       h1 {

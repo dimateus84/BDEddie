@@ -1,0 +1,28 @@
+.site-header {
+  height: 230px;
+
+  .nav ul li a {
+    font-size: 11px;
+    padding: 7px 0px;
+    letter-spacing: 1px;
+  }
+
+  .logo {
+    width: 70%;
+
+    a {
+    top: 20px;
+    }
+
+    .social-share {
+      position: relative;
+      top: 20px;
+      text-align: center;
+      right: 0;
+
+      a {
+        margin-left: 0px;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 <header id="site-header" class="site-header">
   <div class="site-container">
     <nav class="nav">
-      <a class="btn-nav" href="#">Navigation Menu</a>
+      <a class="btn-nav" href="#"><span></span></a>
       <ul class="menu">
         <li><a href="#">HOME</a></li>
         <li><a href="#">AVAILABLE PROPERTIES</a></li>

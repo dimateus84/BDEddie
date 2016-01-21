@@ -12,11 +12,11 @@
 @import "forms/forms";
 
 //layout
-@import "layout/header";
+@import "layout/header/_header";
 @import "layout/wrappers";
 @import "layout/content";
-@import "layout/footer";
-@import "layout/site-container";
+@import "layout/footer/_footer";
+@import "layout/site-container/_site-container";
 
 //blocks
 @import "blocks/sliders/slider";
@@ -25,9 +25,46 @@
 @import "blocks/team/team";
 @import "blocks/clients/clients";
 
-
-
 //pages
 
 //modules
 @import "modules/flexslider";
+
+
+@media (max-width: $width-tablet - 1) {
+
+  //layout
+  @import "layout/site-container/site-container-s";
+  @import "layout/header/header-s";
+
+  //blocks
+  @import "blocks/links/links-s";
+}
+
+@media (min-width: $width-tablet) and (max-width: 1129px) {
+
+  //layout
+  @import "layout/site-container/site-container-m";
+  @import "layout/header/header-m";
+  @import "layout/footer/footer-m";
+
+  //blocks  ;
+  @import "blocks/about-us/about-m";
+
+}
+
+@media (min-width: 1130px) and (max-width: $width + 29) {
+
+  //layout
+  @import "layout/site-container/site-container-l-m";
+  @import "layout/header/header-l-m";
+  @import "layout/footer/footer-l-m";
+
+}
+
+@media (min-width: $width + 30) {
+
+  //layout
+  @import "layout/site-container/site-container-l";
+
+}

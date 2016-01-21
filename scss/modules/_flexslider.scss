@@ -108,13 +108,21 @@ html[xmlns] .flexslider .slides {
     font-size: 40px;
     display: inline-block;
     content: '\f001';
-    color: rgba(0, 0, 0, 0.8);
+    color: gray;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
     position: absolute;
     top: 50%;
-    width: 67px;
+    width: 100%;
     text-align: center;
   }
+
+@media (max-width: 1129px) {
+
+  .flex-direction-nav a:before {
+    font-size: 25px;
+  }
+}
+
   .flex-direction-nav a.flex-next:before {
     content: '\f002';
   }
@@ -146,7 +154,7 @@ html[xmlns] .flexslider .slides {
   /* ====================================================================================================================
    * RESPONSIVE
    * ====================================================================================================================*/
-  @media screen and (max-width: 860px) {
+ /* @media screen and (max-width: 860px) {
     .flex-direction-nav .flex-prev {
       opacity: 1;
       left: 10px;
@@ -155,4 +163,4 @@ html[xmlns] .flexslider .slides {
       opacity: 1;
       right: 10px;
     }
-  }
+  }*/
