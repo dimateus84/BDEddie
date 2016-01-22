@@ -27,7 +27,7 @@
 
       <div class="b-about-us">
         <div class="col col-1">
-          <h2>about us</h2>
+          <h2>about us.</h2>
         </div>
         <div class="col col-2">
           <p>What began over 100 years ago as a grocery and feed store, is now a real estate concern with a

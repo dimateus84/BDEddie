@@ -713,10 +713,10 @@ ul li {
 }
 .b-about-us .col {
   float: left;
-  margin-right: 3%;
+  margin-right: 3.5%;
 }
 .b-about-us .col-1 {
-  width: 20%;
+  width: 17%;
 }
 .b-about-us .col-2, .b-about-us .col-3 {
   width: 37%;
@@ -1289,6 +1289,9 @@ html[xmlns] .flexslider .slides {
   }
   .site-container p {
     font-size: 17px;
+  }
+  .site-container h2 {
+    font-size: 25px;
   }
 
   .site-header {
