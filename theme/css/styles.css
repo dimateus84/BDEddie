@@ -727,7 +727,7 @@ ul li {
 
 .b-team {
   padding: 5% 0;
-  background: url('../images/bg/bg-team.jpg') no-repeat;
+  background: url('../images/bg/bg-team.jpg');
 }
 .b-team:after {
   content: " ";
@@ -786,7 +786,7 @@ ul li {
 }
 
 .b-clients {
-  background: url('../images/bg/bg-clients.jpg') no-repeat;
+  background: url('../images/bg/bg-clients.jpg');
   padding-bottom: 19px;
 }
 .b-clients .clients-logo img {

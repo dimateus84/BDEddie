@@ -1,7 +1,7 @@
 .b-team {
   padding: 5% 0;
   @include clearfix();
-  background: image_url("bg/bg-team.jpg") no-repeat;
+  background: image_url("bg/bg-team.jpg");
 
   img {
     width: 100%;
