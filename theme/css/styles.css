@@ -757,7 +757,7 @@ ul li {
   width: 14.5%;
   margin-bottom: -5%;
 }
-.b-team .foto-descriprion:after {
+.b-team .foto-description:after {
   content: " ";
   display: block;
   height: 0;
@@ -765,7 +765,7 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.b-team .foto-descriprion .center {
+.b-team .foto-description .center {
   width: 14.5%;
   float: left;
   margin-left: 4.3%;
