@@ -50,7 +50,7 @@
           <img src="theme/images/tmp/the-team-logo.png" alt="team-logo"/>
         </div>
 
-        <div class="foto-description">
+        <div class="photo-description">
           <div class="left">
             <img src="theme/images/tmp/portrait-1.jpg" alt="p1"/>
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'gothamhtf-book';
   src: url("../fonts/gothamhtf-book-webfont.eot");
@@ -746,6 +747,9 @@ ul li {
 }
 .b-team .left, .b-team .right {
   width: 38.5%;
+  /* ÐéðÁÐüÐé ð║ð¥ð╝ð┐ð░ÐüÐüð░ ð¢ð░ ð▓ÐïÐçðÁÐüð╗ðÁð¢ð©ðÁ ð┐ÐÇð¥ÐåðÁð¢Ðéð¥ð▓
+  width: 567px / 1472px * 100%;
+  */
 }
 .b-team .left {
   float: left;
@@ -757,7 +761,7 @@ ul li {
   width: 14.5%;
   margin-bottom: -5%;
 }
-.b-team .foto-description:after {
+.b-team .photo-description:after {
   content: " ";
   display: block;
   height: 0;
@@ -765,7 +769,7 @@ ul li {
   overflow: hidden;
   visibility: hidden;
 }
-.b-team .foto-description .center {
+.b-team .photo-description .center {
   width: 14.5%;
   float: left;
   margin-left: 4.3%;
@@ -1167,7 +1171,7 @@ html[xmlns] .flexslider .slides {
     width: 30%;
     margin-bottom: 5%;
   }
-  .b-team .foto-descriprion .center {
+  .b-team .photo-description .center {
     float: none;
     margin: 0 auto 12px;
   }
