@@ -46,12 +46,12 @@
       </div>
 
       <div class="b-team">
-        <div class="team-logo center">
-          <img src="theme/images/tmp/the-team-logo.png" alt="team-logo"/>
-        </div>
+        <!--<div class="team-logo center">
+          <img src="theme/images/bg/the-team-logo.png" alt="team-logo"/>
+        </div>-->
 
         <div class="photo-description">
-          <div class="left">
+          <div class="left-part">
             <img src="theme/images/tmp/portrait-1.jpg" alt="p1"/>
 
             <h3>Terry McGuire</h3>
@@ -66,7 +66,7 @@
           <div class="center">
             <img src="theme/images/tmp/ampersand.png" alt="amp"/>
           </div>
-          <div class="right">
+          <div class="right-part">
             <img src="theme/images/tmp/portrait-2.jpg" alt="p1"/>
 
             <h3>Clay T. Farha</h3>

@@ -1,7 +1,19 @@
 .b-team {
-  padding: 5% 0;
+  padding: 10% 0;
   @include clearfix();
   background: image_url("bg/bg-team.jpg");
+  position: relative;
+
+  &:before {
+    @include pseudo-block(5%,0,false,0);
+    @include oneline-sprite-box($icons, the-team-logo);
+    width: 13.5%;
+    height: 9.5%;
+    background-size: cover;
+    /*background-position-y: -36px;*/
+    /*background-position-y: -24px;*/
+    margin: 0px auto;
+  }
 
   img {
     width: 100%;
@@ -12,30 +24,30 @@
     margin: 0 auto;
   }
 
-  .left, .right {
+  .left-part, .right-part {
     width: 38.5%;
-    /* тест компасса на вычесление процентов
-    width: 567px / 1472px * 100%;
+    /* test percent compass
+    width: 567px / 1472px * 100%; test
     */
   }
 
-  .left {
+  .left-part {
     float: left;
   }
 
-  .right {
+  .right-part {
     float: right;
   }
 
-  .team-logo {
+  /*.team-logo {
     width: 14.5%;
     margin-bottom: -5%;
   }
-
+*/
   .photo-description {
     @include clearfix();
 
-    .center{
+    .center {
       width: 14.5%;
       float: left;
       margin-left: 4.3%;
