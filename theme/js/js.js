@@ -24,7 +24,7 @@
 
   function init() {
     initFlexslider();
-    initMobileNav('.nav');
+    initMobileNav();
 
   }
 
@@ -44,9 +44,9 @@
     });
   }
 
-  function initMobileNav(navWrapper) {
+  function initMobileNav() {
 
-    var $navWrapper = $(navWrapper);
+    var $navWrapper = $('.nav');
     var $btn = $navWrapper.find('.btn-nav');
 
     $btn.on('click touch', checkNav);
