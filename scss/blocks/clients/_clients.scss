@@ -1,12 +1,16 @@
 .b-clients {
   background: image_url("bg/bg-clients.jpg");
   padding-bottom: 19px;
+  padding-top: 11%;
+  position: relative;
 
-  .clients-logo img {
-    margin: 0 auto;
-    padding-top: 3%;
-    width: 20%;
-    height: auto;
+  &:before {
+    @include pseudo-block(5%, 0, false, 0);
+    background: image_url("bg/the-clients-logo.png") no-repeat;
+    width: 17.5%;
+    height: 21%;
+    background-size: 100% auto;
+    margin: 0px auto;
   }
 
   .clients-list-wrapper {

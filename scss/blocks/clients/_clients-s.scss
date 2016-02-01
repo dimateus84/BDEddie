@@ -1,9 +1,15 @@
 .b-clients {
   background: image_url("bg/bg-clients.jpg") repeat-y;
   padding-bottom: 19px;
+  padding-top: 4%;
 
-  .clients-logo img {
-    width: 30%;
+  &:before {
+    width: 100%;
+    background-size: auto 100%;
+    height: 100px;
+    margin-bottom: 1%;
+    position: relative;
+    background-position: 50% 0;
   }
 
   .clients-list-wrapper {

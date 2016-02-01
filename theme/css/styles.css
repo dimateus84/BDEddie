@@ -735,7 +735,7 @@ a {
 
 .b-team {
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 13%;
   background: url('../images/bg/bg-team.jpg');
   position: relative;
 }
@@ -760,25 +760,6 @@ a {
   background-size: 100% auto;
   margin: 0px auto;
 }
-.b-team img {
-  width: 100%;
-  height: auto;
-}
-.b-team .center {
-  margin: 0 auto;
-}
-.b-team .left-part, .b-team .right-part {
-  width: 38.5%;
-  /* test percent compass
-  width: 567px / 1472px * 100%; test
-  */
-}
-.b-team .left-part {
-  float: left;
-}
-.b-team .right-part {
-  float: right;
-}
 .b-team .photo-description:after {
   content: " ";
   display: block;
@@ -787,21 +768,45 @@ a {
   overflow: hidden;
   visibility: hidden;
 }
-.b-team .photo-description .center {
-  width: 14.5%;
+.b-team .photo-description .left-part, .b-team .photo-description .right-part {
+  width: 38.5%;
+}
+.b-team .photo-description .left-part {
   float: left;
-  margin-left: 4.3%;
-  margin-top: 8%;
 }
-.b-team .contact .center {
+.b-team .photo-description .right-part {
+  float: right;
+}
+.b-team .photo-description .right-part:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 19%;
+  right: 0;
+  left: 0;
+  background: url('../images/bg/ampersand.png') no-repeat;
+  width: 13.5%;
+  height: 30%;
+  background-size: 100% auto;
+  margin: 0px auto;
+}
+.b-team .contact {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 4%;
+  left: 0;
   width: 22.5%;
+  margin: 0 auto;
+  height: 7.5%;
+  background: url('../images/bg/contanct.png') no-repeat;
+  background-size: 100% auto;
 }
-.b-team .contact .center:hover {
-  background: brown;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.b-team .contact a {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .b-team p {
   color: #bebfc0;
@@ -810,12 +815,21 @@ a {
 .b-clients {
   background: url('../images/bg/bg-clients.jpg');
   padding-bottom: 19px;
+  padding-top: 11%;
+  position: relative;
 }
-.b-clients .clients-logo img {
-  margin: 0 auto;
-  padding-top: 3%;
-  width: 20%;
-  height: auto;
+.b-clients:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  left: 0;
+  background: url('../images/bg/the-clients-logo.png') no-repeat;
+  width: 17.5%;
+  height: 21%;
+  background-size: 100% auto;
+  margin: 0px auto;
 }
 .b-clients .clients-list-wrapper:after {
   content: " ";
@@ -958,12 +972,12 @@ html[xmlns] .flexslider .slides {
   left: 50%;
   width: 49%;
   height: 10%;
-  background-size: auto 100%;
+  background-size: 100% auto;
 }
 
 .flex-direction-nav a.flex-next:before {
   background: url('../images/bg/image-slider-button.png') 50% 0 no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
   transform: rotate(180deg) translate(50%, 50%);
 }
 
@@ -1157,24 +1171,41 @@ html[xmlns] .flexslider .slides {
     padding-top: 2%;
   }
 
-  .b-team .left-part, .b-team .right-part {
-    width: 100%;
-  }
-  .b-team .left-part {
-    float: none;
-  }
-  .b-team .right-part {
-    float: none;
+  .b-team {
+    padding-bottom: 3%;
   }
   .b-team:before {
-    width: 30%;
+    width: 100%;
+    background-size: auto;
+    height: 146px;
+    margin-bottom: 10%;
+    position: relative;
+    background-position: 50% 0;
   }
-  .b-team .photo-description .center {
+  .b-team .photo-description .left-part, .b-team .photo-description .right-part {
+    width: 100%;
+  }
+  .b-team .photo-description .left-part {
     float: none;
-    margin: 0 auto 12px;
   }
-  .b-team .contact .center {
-    width: 35%;
+  .b-team .photo-description .right-part {
+    float: none;
+  }
+  .b-team .photo-description .right-part:before {
+    width: 100%;
+    background-size: auto 100%;
+    height: 230px;
+    margin-top: 2%;
+    position: relative;
+    background-position: 50% 0;
+  }
+  .b-team .contact {
+    width: 100%;
+    position: relative;
+    height: 80px;
+    background-size: auto 100%;
+    margin-bottom: 6%;
+    background-position: 50% 0;
   }
   .b-team h3, .b-team p {
     text-align: center;
@@ -1183,9 +1214,15 @@ html[xmlns] .flexslider .slides {
   .b-clients {
     background: url('../images/bg/bg-clients.jpg') repeat-y;
     padding-bottom: 19px;
+    padding-top: 4%;
   }
-  .b-clients .clients-logo img {
-    width: 30%;
+  .b-clients:before {
+    width: 100%;
+    background-size: auto 100%;
+    height: 100px;
+    margin-bottom: 1%;
+    position: relative;
+    background-position: 50% 0;
   }
   .b-clients .clients-list-wrapper h3 {
     text-align: center;

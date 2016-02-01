@@ -1,12 +1,12 @@
 .b-team {
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 13%;
   @include clearfix();
   background: image_url("bg/bg-team.jpg");
   position: relative;
 
   &:before {
-    @include pseudo-block(5%,0,false,0);
+    @include pseudo-block(5%, 0, false, 0);
     background: image_url("bg/the-team-logo.png") no-repeat;
     width: 13.5%;
     height: 10%;
@@ -14,47 +14,43 @@
     margin: 0px auto;
   }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .center {
-    margin: 0 auto;
-  }
-
-  .left-part, .right-part {
-    width: 38.5%;
-    /* test percent compass
-    width: 567px / 1472px * 100%; test
-    */
-  }
-
-  .left-part {
-    float: left;
-  }
-
-  .right-part {
-    float: right;
-  }
-
   .photo-description {
     @include clearfix();
 
-    .center {
-      width: 14.5%;
+    .left-part, .right-part {
+      width: 38.5%;
+    }
+
+    .left-part {
       float: left;
-      margin-left: 4.3%;
-      margin-top: 8%;
+    }
+
+    .right-part {
+      float: right;
+
+      &:before {
+        @include pseudo-block(19%, 0, false, 0);
+        background: image_url("bg/ampersand.png") no-repeat;
+        width: 13.5%;
+        height: 30%;
+        background-size: 100% auto;
+        margin: 0px auto;
+      }
     }
   }
 
-  .contact .center {
+  .contact  {
+    @include pseudo-block(false, 0, 4%, 0);
     width: 22.5%;
+    margin: 0 auto;
+    height: 7.5%;
+    background: image_url("bg/contanct.png") no-repeat;
+    background-size: 100% auto;
 
-    &:hover {
-      background: brown;
-      @include transition(all 0.3s);
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
     }
   }
 

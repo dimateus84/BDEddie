@@ -61,9 +61,6 @@
             Edmond and Oklahoma City, in addition to our commercial land available for development.
           </p>
         </div>
-        <div class="center">
-          <img src="theme/images/tmp/ampersand.png" alt="amp"/>
-        </div>
         <div class="right-part">
           <img src="theme/images/tmp/portrait-2.jpg" alt="p1"/>
 
@@ -78,21 +75,14 @@
       </div>
 
       <div class="contact">
-        <div class="center">
-
           <a href="#">
-            <img src="theme/images/tmp/contanct.png" alt="cont"/>
           </a>
-
-        </div>
       </div>
     </div>
 
 
     <div class="b-clients width-padding">
-      <div class="clients-logo">
-        <img src="theme/images/tmp/the-clients-logo.png" alt="cliens"/>
-      </div>
+
       <div class="clients-list-wrapper">
         <div class="left-part">
           <h3>RETAIL</h3>

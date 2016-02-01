@@ -104,12 +104,12 @@ html[xmlns] .flexslider .slides {
   left: 50%;
   width: 49%;
   height: 10%;
-  background-size: auto 100%;
+  background-size: 100% auto;
 }
 
 .flex-direction-nav a.flex-next:before {
   background: image_url("bg/image-slider-button.png") 50% 0 no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
   transform: rotate(180deg) translate(50%, 50%);
 }
 
