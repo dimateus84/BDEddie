@@ -828,33 +828,25 @@ a {
 .b-clients .clients-list-wrapper h3 {
   border-bottom: 2px solid #6d6e71;
   margin-top: 0;
+  margin-bottom: 30px;
 }
-.b-clients .clients-list-wrapper p {
+.b-clients .clients-list-wrapper ul {
+  padding: 0;
+}
+.b-clients .clients-list-wrapper ul li {
   margin: 0;
   letter-spacing: 2px;
+  list-style: none;
+  color: #6d6e71;
 }
 .b-clients .clients-list-wrapper .left-part {
   float: left;
   width: 66%;
 }
-.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper:after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
-  overflow: hidden;
-  visibility: hidden;
+.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .last.column {
+  padding-left: 2.5%;
 }
-.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list, .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
-  float: left;
-}
-.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list {
-  width: 55%;
-}
-.b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
-  width: 45%;
-}
-.b-clients .clients-list-wrapper .right-pert {
+.b-clients .clients-list-wrapper .right-part {
   float: right;
   width: 30%;
 }
@@ -1197,26 +1189,15 @@ html[xmlns] .flexslider .slides {
   }
   .b-clients .clients-list-wrapper h3 {
     text-align: center;
+    margin-bottom: 5px;
+    margin-top: 15px;
   }
   .b-clients .clients-list-wrapper p {
     letter-spacing: 0.5px;
     text-align: center;
   }
-  .b-clients .clients-list-wrapper .left-part {
-    width: 48%;
-    padding-right: 2%;
-  }
-  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list, .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
-    float: none;
-  }
-  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .left-list {
+  .b-clients .clients-list-wrapper .left-part, .b-clients .clients-list-wrapper .right-part {
     width: 100%;
-  }
-  .b-clients .clients-list-wrapper .left-part .left-client-list-wrapper .right-list {
-    width: 100%;
-  }
-  .b-clients .clients-list-wrapper .right-pert {
-    width: 48%;
   }
 
   body {

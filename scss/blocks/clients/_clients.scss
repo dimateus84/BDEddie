@@ -2,7 +2,7 @@
   background: image_url("bg/bg-clients.jpg");
   padding-bottom: 19px;
 
-  .clients-logo img{
+  .clients-logo img {
     margin: 0 auto;
     padding-top: 3%;
     width: 20%;
@@ -15,11 +15,18 @@
     h3 {
       border-bottom: 2px solid #6d6e71;
       margin-top: 0;
+      margin-bottom: 30px;
     }
 
-    p {
-      margin: 0;
-      letter-spacing: 2px;
+    ul {
+      padding: 0;
+
+      li {
+        margin: 0;
+        letter-spacing: 2px;
+        list-style: none;
+        color: #6d6e71;
+      }
     }
 
     .left-part {
@@ -27,23 +34,15 @@
       width: 66%;
 
       .left-client-list-wrapper {
-        @include clearfix();
 
-        .left-list, .right-list {
-          float: left;
+        .last.column {
+          padding-left: 2.5%;
         }
 
-        .left-list {
-          width: 55%;
-        }
-
-        .right-list {
-         width: 45%;
-        }
       }
     }
 
-    .right-pert {
+    .right-part {
       float: right;
       width: 30%;
     }

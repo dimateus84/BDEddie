@@ -25,7 +25,12 @@
   function init() {
     initFlexslider();
     initMobileNav();
+    initColum();
 
+  }
+
+  function initColum() {
+    $('.left-client-list-wrapper ul').columnize({width:380, columns :2});
   }
 
   function initFlexslider() {

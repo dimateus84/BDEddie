@@ -99,88 +99,82 @@
 
           <div class="left-client-list-wrapper">
 
-            <div class="left-list">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-              
-              <p>A&W Restaurants</p>
+            <ul>
+              <li>A&W Restaurants</li>
 
-              <p>Barnes & Noble</p>
+              <li>Barnes & Noble</li>
 
-              <p>Big Sky Bread</p>
+              <li>Big Sky Bread</li>
 
-              <p>Church's Chicken</p>
+              <li>Church's Chicken</li>
 
-              <p>Circle K</p>
+              <li>Circle K</li>
 
-              <p>City Bites</p>
+              <li>City Bites</li>
 
-              <p>Freddy's Frozen Custard</p>
+              <li>Freddy's Frozen Custard</li>
 
-              <p>KFC</p>
+              <li>KFC</li>
 
-              <p>Long John Silver's</p>
+              <li>Long John Silver's</li>
 
-              <p>Mobile Macsters</p>
+              <li>Mobile Macsters</li>
 
-              <p>Olive + Co</p>
-            </div>
+              <li>Olive + Co</li>
 
-            <div class="right-list">
-              <p>Options 2 Design</p>
+              <li>Options 2 Design</li>
 
-              <p>Pack N' Ship</p>
+              <li>Pack N' Ship</li>
 
-              <p>Paper N' More</p>
+              <li>Paper N' More</li>
 
-              <p>Perk Place Cafe</p>
+              <li>Perk Place Cafe</li>
 
-              <p>Pole Position Raceway</p>
+              <li>Pole Position Raceway</li>
 
-              <p>Prim</p>
+              <li>Prim</li>
 
-              <p>ProCleaners</p>
+              <li>ProCleaners</li>
 
-              <p>Snow Pea</p>
+              <li>Snow Pea</li>
 
-              <p>Swiss Cleaners</p>
+              <li>Swiss Cleaners</li>
 
-              <p>Tony Foss Flowers</p>
+              <li>Tony Foss Flowers</li>
+            </ul>
 
-            </div>
           </div>
 
 
         </div>
-        <div class="right-pert">
+        <div class="right-part">
           <h3>OFFICE</h3>
 
-          <p>American Eagle Title Co.</p>
+          <ul>
+            <li>American Eagle Title Co.</li>
 
-          <p>Breast Imaging of Oklahoma</p>
+            <li>Breast Imaging of Oklahoma</li>
 
-          <p>The Cotton Law Firm</p>
+            <li>The Cotton Law Firm</li>
 
-          <p>Edward Jones</p>
+            <li>Edward Jones</li>
 
-          <p>EMSA</p>
+            <li>EMSA</li>
 
-          <p>Farmer's Insurance/Mike </p>
+            <li>Farmer's Insurance/Mike</li>
 
-          <p>Gaddis Agency</p>
+            <li>Gaddis Agency</li>
 
-          <p>The Hays Group, Inc.</p>
+            <li>The Hays Group, Inc.</li>
 
-          <p>Michael Bay and Associates</p>
+            <li>Michael Bay and Associates</li>
 
-          <p>Nick Massey Householder </p>
+            <li>Nick Massey Householder</li>
 
-          <p>Group Financial</p>
+            <li>Group Financial</li>
 
-          <p>Quinstreet/Surehits</p>
+            <li>Quinstreet/Surehits</li>
+          </ul>
 
         </div>
       </div>
