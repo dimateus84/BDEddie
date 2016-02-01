@@ -4,15 +4,19 @@
     height: 210px;
   }
 
-  .nav ul li a {
+  .nav ul {
+
     font-size: 11px;
-    padding: 7px 0px;
     letter-spacing: 1px;
+
+    li a {
+      padding: 7px 0px;
+    }
   }
 
   .logo {
     width: 70%;
-    top:20px;
+    top: 20px;
 
     a {
       position: static;
@@ -26,7 +30,6 @@
       position: static;
       text-align: center;
       transform: none;
-
 
       li {
         margin-left: 0px;

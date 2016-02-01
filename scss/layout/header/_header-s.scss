@@ -1,14 +1,20 @@
 .site-header {
 
-
   .site-container {
     height: auto;
   }
 
-  .nav.nav-active ul {
-    visibility: visible;
-    opacity: 1;
-    @include transform(translate(0, -1px));
+  .nav.nav-active {
+
+    ul {
+      visibility: visible;
+      opacity: 1;
+      @include transform(translate(0, -1px));
+    }
+
+    .btn-nav span, .btn-nav:before, .btn-nav:after {
+      background-color: red;
+    }
   }
 
   .nav {
@@ -40,6 +46,7 @@
         height: 2px;
         border-radius: 1px;
         background-color: #fff;
+
       }
     }
 
@@ -54,6 +61,8 @@
       width: 100%;
       text-align: center;
       background: black;
+      font-size: 11px;
+      letter-spacing: 1px;
 
       li {
         display: list-item;
@@ -63,9 +72,7 @@
         margin: 0;
 
         a {
-        font-size: 11px;
-        padding: 7px 0px;
-        letter-spacing: 1px;
+          padding: 7px 0px;
         }
       }
     }
@@ -74,9 +81,9 @@
   .logo {
     width: 90%;
     transform: none;
-    top:0;
+    top: 0;
 
-    a {
+    & > a {
       position: static;
 
       img {
@@ -89,9 +96,22 @@
       text-align: center;
       margin-bottom: 2%;
       transform: none;
+      height: 40px;
 
-      a {
+      li {
         margin-left: 0px;
+
+        &.facebook {
+          @include oneline-sprite-box($icons, facebook-s);
+        }
+
+        &.twitter {
+          @include oneline-sprite-box($icons, twitter-s);
+        }
+
+        &.instagram {
+          @include oneline-sprite-box($icons, instagram-s);
+        }
       }
     }
   }
