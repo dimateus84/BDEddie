@@ -950,25 +950,25 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 40px;
   display: inline-block;
-  content: '\f001';
-  color: gray;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  content: '';
+  background: url('../images/bg/image-slider-button.png') 50% 0 no-repeat;
   position: absolute;
   top: 50%;
-  width: 100%;
-  text-align: center;
+  left: 50%;
+  width: 49%;
+  height: 10%;
+  background-size: auto 100%;
 }
 
-@media (max-width: 1129px) {
-  .flex-direction-nav a:before {
-    font-size: 15px;
-  }
-}
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  background: url('../images/bg/image-slider-button.png') 50% 0 no-repeat;
+  background-size: auto 100%;
+  transform: rotate(180deg) translate(50%, 50%);
+}
+
+.flex-direction-nav a.flex-prev:before {
+  transform: translate(-50%, -50%);
 }
 
 .flex-direction-nav .flex-prev {
