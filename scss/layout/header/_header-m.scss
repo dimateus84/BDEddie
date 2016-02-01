@@ -1,5 +1,8 @@
 .site-header {
-  height: 100%;
+
+  .site-container {
+    height: 210px;
+  }
 
   .nav ul li a {
     font-size: 11px;
@@ -9,6 +12,7 @@
 
   .logo {
     width: 70%;
+    top:20px;
 
     a {
       position: static;
@@ -18,12 +22,13 @@
       }
     }
 
-    .social-share {
+    .social-menu {
       position: static;
       text-align: center;
-      margin-bottom: 2%;
+      transform: none;
 
-      a {
+
+      li {
         margin-left: 0px;
       }
     }

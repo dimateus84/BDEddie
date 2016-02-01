@@ -15,10 +15,18 @@
         <h1>B.D. EDDIE ENTERPRISES</h1>
       </a>
 
-      <div class="social-share">
-        <a class="facebook" href="#facebook"></a>
-        <a class="twitter" href="#twitter"></a>
-        <a class="instagram" href="#instagram"></a>
+      <div class="social-menu">
+        <ul>
+          <li class="facebook">
+            <a  href="#facebook"></a>
+          </li>
+          <li class="twitter">
+            <a  href="#twitter"></a>
+          </li>
+          <li class="instagram">
+            <a  href="#instagram"></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

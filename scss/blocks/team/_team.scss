@@ -1,17 +1,15 @@
 .b-team {
-  padding: 10% 0;
+  padding: 10% 0 5%;
   @include clearfix();
   background: image_url("bg/bg-team.jpg");
   position: relative;
 
   &:before {
     @include pseudo-block(5%,0,false,0);
-    @include oneline-sprite-box($icons, the-team-logo);
+    background: image_url("bg/the-team-logo.png") no-repeat;
     width: 13.5%;
-    height: 9.5%;
-    background-size: cover;
-    /*background-position-y: -36px;*/
-    /*background-position-y: -24px;*/
+    height: 10%;
+    background-size: 100% auto;
     margin: 0px auto;
   }
 
@@ -39,11 +37,6 @@
     float: right;
   }
 
-  /*.team-logo {
-    width: 14.5%;
-    margin-bottom: -5%;
-  }
-*/
   .photo-description {
     @include clearfix();
 

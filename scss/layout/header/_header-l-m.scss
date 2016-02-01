@@ -1,5 +1,8 @@
 .site-header {
-  height: 240px;
+
+  .site-container {
+    height: 240px;
+  }
 
   .nav ul li a {
     font-size: 14px;
@@ -8,10 +11,9 @@
 
   .logo {
 
-    .social-share {
-      top: 60px;
+    .social-menu {
 
-      a {
+      li {
         margin-left: 10px;
       }
     }

@@ -1,5 +1,5 @@
 .b-team {
-  background: image_url("bg/bg-team.jpg") repeat-y;
+
 
   .left-part, .right-part {
     width: 100%;
@@ -13,9 +13,8 @@
     float: none;
   }
 
-  .team-logo {
+  &:before {
     width: 30%;
-    margin-bottom: 5%;
   }
 
   .photo-description .center{
