@@ -1,5 +1,5 @@
 <footer id="site-footer" class="site-footer">
-  <div class="site-container">
+  <div class="site-container  width-padding">
     <div class="footer-img-logo">
       <img src="theme/images/tmp/img-footer-logo.png" alt="footer-img"/>
     </div>

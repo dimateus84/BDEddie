@@ -625,20 +625,11 @@ a {
 
 .site-footer .site-container {
   background: #818285 url('../images/bg/bg-footer.jpg') no-repeat;
-  height: 100%;
-}
-.site-footer .site-container > div {
-  padding-left: 4%;
-  padding-right: 4%;
 }
 .site-footer .footer-img-logo {
   padding-top: 282px;
   margin-bottom: 45px;
   width: 42%;
-}
-.site-footer .footer-img-logo img {
-  width: 100%;
-  height: auto;
 }
 .site-footer p {
   font-size: 18px;
@@ -684,8 +675,7 @@ a {
   width: 30.5%;
 }
 .b-links a img {
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
 }
 .b-links a:last-child {
   margin-right: 0;
@@ -789,6 +779,9 @@ a {
   height: 30%;
   background-size: 100% auto;
   margin: 0px auto;
+}
+.b-team .photo-description img {
+  margin: 0 auto;
 }
 .b-team .contact {
   content: "";

@@ -2,12 +2,6 @@
 
   .site-container {
     background: #818285 image_url("bg/bg-footer.jpg") no-repeat;
-    height: 100%;
-
-    &>div {
-      padding-left:4%;
-      padding-right:4%;
-    }
   }
 
 
@@ -15,11 +9,6 @@
     padding-top: 282px;
     margin-bottom: 45px;
     width: 42%;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
   }
 
   p {
