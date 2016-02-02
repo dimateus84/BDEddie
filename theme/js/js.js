@@ -37,7 +37,7 @@
     $(window).load(function () {
       $('.flexslider').flexslider({
         animation: "slade",
-        animationLoop: true,
+        animationLoop: false,
         slideshow: true,
         slideshowSpeed: 6000,
         pauseOnHover: true,
