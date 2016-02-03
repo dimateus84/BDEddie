@@ -22,7 +22,8 @@
       <div class="social-menu">
         <ul>
           <li class="social-1">
-            <a href="#facebook"></a>
+            <a href="#facebook">
+            </a>
           </li>
           <li class="social-2">
             <a href="#twitter"></a>

@@ -690,18 +690,30 @@ a {
   overflow: hidden;
   visibility: hidden;
 }
-.b-links a {
+.b-links .links {
   float: left;
   margin-right: 4%;
   width: 30.5%;
+  position: relative;
 }
-.b-links a img {
+.b-links .links h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+.b-links .links img {
   margin: 0 auto;
 }
-.b-links a:last-child {
+.b-links .links:last-child {
   margin-right: 0;
 }
-.b-links a:hover {
+.b-links .links:hover {
   opacity: 0.6;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;

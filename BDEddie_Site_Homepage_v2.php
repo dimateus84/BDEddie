@@ -15,15 +15,24 @@
     </div>
 
     <div class="b-links width-padding">
-      <a href="#">
-        <img src="theme/images/tmp/link-work.jpg" alt="1"/>
-      </a>
-      <a href="#">
-        <img src="theme/images/tmp/link-shop.jpg" alt="2"/>
-      </a>
-      <a href="#">
-        <img src="theme/images/tmp/link-live.jpg" alt="3"/>
-      </a>
+      <div class="links">
+        <a href="#">
+          <h3>work</h3>
+          <img src="theme/images/tmp/link-work.jpg" alt="1"/>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#">
+          <h3>shop</h3>
+          <img src="theme/images/tmp/link-shop.jpg" alt="2"/>
+        </a>
+      </div>
+      <div class="links">
+        <a href="#">
+          <h3>live</h3>
+          <img src="theme/images/tmp/link-live.jpg" alt="3"/>
+        </a>
+      </div>
     </div>
 
     <div class="b-about-us width-padding">
@@ -75,9 +84,9 @@
       </div>
 
       <div class="contact-link btn-wrapper">
-          <a class="btn" href="#">
-            contact
-          </a>
+        <a class="btn" href="#">
+          contact
+        </a>
       </div>
     </div>
 
