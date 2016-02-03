@@ -29,6 +29,13 @@
         <a href="index/BDEddie_Site_AvailableProperties.jpg">Preview</a>
       </p>
     </li>
+    <li>
+      <a href="BDEddie_Site_ContactUs.php"><img src="index/BDEddie_Site_ContactUs-s.jpg" alt=""/></a>
+      <p>
+        BDEddie_Site_AvailableProperties
+        <a href="index/BDEddie_Site_ContactUs.jpg">Preview</a>
+      </p>
+    </li>
   </ul>
 </div>
 </body>

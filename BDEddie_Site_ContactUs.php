@@ -1,6 +1,6 @@
-<?php $title = 'BDEddie_Site_AvailableProperties'; ?>
+<?php $title = 'BDEddie_Site_ContactUs'; ?>
 <?php include 'tpl/includes/head.inc'; ?>
-<body class="front page page-available-properties">
+<body class="front page page-contact-us">
 <div class="outer-wrapper">
   <?php include 'tpl/layout/header.inc'; ?>
   <div class="content-wrapper site-container">
