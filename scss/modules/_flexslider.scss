@@ -110,7 +110,7 @@ html[xmlns] .flexslider .slides {
 .flex-direction-nav a.flex-next:before {
   background: image_url("bg/image-slider-button.png") 50% 0 no-repeat;
   background-size: 100% auto;
-  transform: rotate(180deg) translate(50%, 50%);
+  @include transform (rotate(180deg) translate(50%, 50%));
 }
 
 .flex-direction-nav a.flex-prev:before {

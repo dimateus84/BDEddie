@@ -84,7 +84,7 @@
       right: -42%;
       padding: 0px;
       height: 52px;
-      transform: translate(0, -50%);
+      @include transform(translate(0, -50%));
 
       li {
         list-style: none;
