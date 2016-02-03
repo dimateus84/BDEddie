@@ -703,7 +703,6 @@ a {
   transform: translate(-50%, -50%);
   color: #fff;
   text-transform: uppercase;
-  font-size: 48px;
   letter-spacing: 3px;
   margin: 0;
 }
@@ -1171,12 +1170,15 @@ html[xmlns] .flexslider .slides {
     font-size: 18px;
   }
 
-  .b-links a {
+  .b-links .links {
     float: none;
     margin-right: 0%;
     width: 100%;
     margin-bottom: 15px;
     display: block;
+  }
+  .b-links .links h3 {
+    font-size: 48px;
   }
 
   .b-about-us {
@@ -1404,5 +1406,9 @@ html[xmlns] .flexslider .slides {
 @media (min-width: 1630px) {
   .site-container {
     width: 1600px;
+  }
+
+  .b-links .links h3 {
+    font-size: 48px;
   }
 }
