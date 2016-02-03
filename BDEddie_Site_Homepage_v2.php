@@ -74,8 +74,9 @@
         </div>
       </div>
 
-      <div class="contact">
-          <a href="#">
+      <div class="contact-link btn-wrapper">
+          <a class="btn" href="#">
+            contact
           </a>
       </div>
     </div>

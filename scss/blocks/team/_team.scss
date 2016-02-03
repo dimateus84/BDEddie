@@ -1,6 +1,6 @@
 .b-team {
   padding-top: 10%;
-  padding-bottom: 13%;
+  padding-bottom: 3%;
   @include clearfix();
   background: image_url("bg/bg-team.jpg");
   position: relative;
@@ -16,6 +16,7 @@
 
   .photo-description {
     @include clearfix();
+    margin-bottom: 4%;
 
     .left-part, .right-part {
       width: 38.5%;
@@ -43,20 +44,7 @@
     }
   }
 
-  .contact  {
-    @include pseudo-block(false, 0, 4%, 0);
-    width: 22.5%;
-    margin: 0 auto;
-    height: 7.5%;
-    background: image_url("bg/contanct.png") no-repeat;
-    background-size: 100% auto;
-
-    a {
-      display: block;
-      height: 100%;
-      width: 100%;
-    }
-  }
+  .contact-link {}
 
   p {
     color: #bebfc0

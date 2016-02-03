@@ -656,6 +656,22 @@ a {
   visibility: hidden;
 }
 
+.btn-wrapper {
+  text-align: center;
+}
+.btn-wrapper .btn {
+  display: inline-block;
+  font-family: gothamhtf-black;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  letter-spacing: 4px;
+  padding: 0.8% 1.8%;
+  border: 2px solid #fff;
+  min-width: 22.5%;
+  min-height: 7.5%;
+}
+
 .b-slider {
   position: relative;
   margin-bottom: 5%;
@@ -728,7 +744,7 @@ a {
 
 .b-team {
   padding-top: 10%;
-  padding-bottom: 13%;
+  padding-bottom: 3%;
   background: url('../images/bg/bg-team.jpg');
   position: relative;
 }
@@ -752,6 +768,9 @@ a {
   height: 10%;
   background-size: 100% auto;
   margin: 0px auto;
+}
+.b-team .photo-description {
+  margin-bottom: 4%;
 }
 .b-team .photo-description:after {
   content: " ";
@@ -785,24 +804,6 @@ a {
 }
 .b-team .photo-description img {
   margin: 0 auto;
-}
-.b-team .contact {
-  content: "";
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 4%;
-  left: 0;
-  width: 22.5%;
-  margin: 0 auto;
-  height: 7.5%;
-  background: url('../images/bg/contanct.png') no-repeat;
-  background-size: 100% auto;
-}
-.b-team .contact a {
-  display: block;
-  height: 100%;
-  width: 100%;
 }
 .b-team p {
   color: #bebfc0;
@@ -1150,6 +1151,10 @@ html[xmlns] .flexslider .slides {
     margin-bottom: 30px;
   }
 
+  .btn-wrapper .btn {
+    font-size: 18px;
+  }
+
   .b-links a {
     float: none;
     margin-right: 0%;
@@ -1205,14 +1210,6 @@ html[xmlns] .flexslider .slides {
     height: 230px;
     margin-bottom: 4%;
     position: relative;
-    background-position: 50% 0;
-  }
-  .b-team .contact {
-    width: 182px;
-    position: relative;
-    height: 54px;
-    background-size: 100% auto;
-    margin-bottom: 6%;
     background-position: 50% 0;
   }
   .b-team h3, .b-team p {
@@ -1307,6 +1304,10 @@ html[xmlns] .flexslider .slides {
     margin-bottom: 30px;
   }
 
+  .btn-wrapper .btn {
+    font-size: 18px;
+  }
+
   body {
     font-size: 14px;
   }
@@ -1368,6 +1369,10 @@ html[xmlns] .flexslider .slides {
   }
   .site-footer .address {
     margin-bottom: 60px;
+  }
+
+  .btn-wrapper .btn {
+    font-size: 30px;
   }
 
   body {
