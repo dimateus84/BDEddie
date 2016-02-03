@@ -8,6 +8,11 @@
       width: 30.5%;
       position: relative;
 
+      &:hover {
+        background: red;
+        @include transition(all 0.3s);
+      }
+
       h3 {
         position: absolute;
         top: 50%;
@@ -17,19 +22,20 @@
         text-transform: uppercase;
         letter-spacing: 3px;
         margin: 0;
+        z-index: 1;
       }
 
       img {
         margin: 0 auto;
+
+        &:hover {
+          opacity:0.6;
+          @include transition(all 0.3s);
+        }
       }
 
       &:last-child {
         margin-right: 0;
-      }
-
-      &:hover {
-        opacity:0.6;
-        @include transition(all 0.3s);
       }
     }
   }

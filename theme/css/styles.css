@@ -696,6 +696,13 @@ a {
   width: 30.5%;
   position: relative;
 }
+.b-links .links:hover {
+  background: red;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 .b-links .links h3 {
   position: absolute;
   top: 50%;
@@ -705,19 +712,20 @@ a {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 0;
+  z-index: 1;
 }
 .b-links .links img {
   margin: 0 auto;
 }
-.b-links .links:last-child {
-  margin-right: 0;
-}
-.b-links .links:hover {
+.b-links .links img:hover {
   opacity: 0.6;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+.b-links .links:last-child {
+  margin-right: 0;
 }
 
 .b-about-us {
