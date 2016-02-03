@@ -4,23 +4,23 @@
     height: auto;
   }
 
-  .nav.nav-active {
-
-    ul {
-      visibility: visible;
-      opacity: 1;
-      @include transform(translate(0, -1px));
-    }
-
-    .btn-nav span, .btn-nav:before, .btn-nav:after {
-      background-color: red;
-    }
-  }
-
   .nav {
     background: #000000;
     height: 30px;
     margin-bottom: 2%;
+
+    &.nav-active {
+
+      ul {
+        visibility: visible;
+        opacity: 1;
+        @include transform(translate(0, -1px));
+      }
+
+      .btn-nav span, .btn-nav:before, .btn-nav:after {
+        background-color: red;
+      }
+    }
 
     .btn-nav {
       display: block;
@@ -78,16 +78,19 @@
     }
   }
 
-  .logo {
-    width: 90%;
-    @include transform(none);
+  .logo-social-wrapper {
     top: 0;
 
-    & > a {
-      position: static;
+    .logo {
+      width: 90%;
+      @include transform(none);
 
-      img {
-        margin-bottom: 2%;
+      & > a {
+        position: static;
+
+        img {
+          margin-bottom: 2%;
+        }
       }
     }
 
@@ -101,15 +104,15 @@
       li {
         margin-left: 0px;
 
-        &.facebook {
+        &.social-1 {
           @include oneline-sprite-box($icons, facebook-s);
         }
 
-        &.twitter {
+        &.social-2 {
           @include oneline-sprite-box($icons, twitter-s);
         }
 
-        &.instagram {
+        &.social-3 {
           @include oneline-sprite-box($icons, instagram-s);
         }
       }

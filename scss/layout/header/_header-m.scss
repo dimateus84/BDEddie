@@ -14,15 +14,18 @@
     }
   }
 
-  .logo {
-    width: 70%;
+  .logo-social-wrapper {
     top: 20px;
 
-    a {
-      position: static;
+    .logo {
+      width: 70%;
 
-      img {
-        margin-bottom: 2%;
+      a {
+        position: static;
+
+        img {
+          margin-bottom: 2%;
+        }
       }
     }
 
