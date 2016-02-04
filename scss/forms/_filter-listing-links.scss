@@ -1,0 +1,65 @@
+.filter-wrapper {
+  @include clearfix();
+  height: 90px;
+  width: 65%;
+  float: left;
+  color: #383c3d;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: $gothamhtf-black;
+
+
+  .filter-header {
+    float: left;
+    line-height: 90px;
+  }
+
+  .form-filter-listing-links {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+
+    fieldset {
+      line-height: 90px;
+      border:0;
+
+      legend {
+        float: left;
+      }
+    }
+
+    .form-item {
+      float: left;
+      text-align: center;
+      margin: 0;
+
+      label:before {
+        content: "|";
+        display: inline;
+        position: relative;
+        right: 12px;
+        color: black;
+      }
+
+      input[type="radio"] {
+        display: none;
+      }
+
+      input[type="radio"] + label {
+        display: inline;
+        padding: 0 15px 0 5px;
+        cursor: pointer;
+        line-height: 90px;
+      }
+
+      input[type="radio"]:checked + label {
+        color: #ec232d;;
+      }
+    }
+
+    .field-filter-all label:before {
+      content: "";
+    }
+  }
+}
+

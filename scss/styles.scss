@@ -10,6 +10,8 @@
 
 //forms
 @import "forms/forms";
+@import "forms/view-btn";
+@import "forms/filter-listing-links";
 
 //layout
 @import "layout/header/_header";
@@ -27,6 +29,7 @@
 @import "blocks/team/team";
 @import "blocks/clients/clients";
 @import "blocks/image-page-header/b-image-page-header";
+@import "blocks/filter-view/b-filter-view";
 
 //pages
 
