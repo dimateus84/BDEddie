@@ -6,19 +6,19 @@
 @import "common/settings";
 @import "common/normalize";
 @import "common/helpers";
-@import "common/defaults/_defaults";
+@import "common/defaults/defaults";
 
 //forms
 @import "forms/forms";
-@import "forms/view-btn";
-@import "forms/filter-listing-links";
+@import "forms/view-btn/view-btn";
+@import "forms/filter-listing-links/filter-listing-links";
 
 //layout
-@import "layout/header/_header";
+@import "layout/header/header";
 @import "layout/wrappers";
 @import "layout/content";
-@import "layout/footer/_footer";
-@import "layout/site-container/_site-container";
+@import "layout/footer/footer";
+@import "layout/site-container/site-container";
 @import "layout/btn/btn";
 
 
@@ -28,8 +28,8 @@
 @import "blocks/about-us/about";
 @import "blocks/team/team";
 @import "blocks/clients/clients";
-@import "blocks/image-page-header/b-image-page-header";
-@import "blocks/filter-view/b-filter-view";
+@import "blocks/image-page-header/image-page-header";
+@import "blocks/filter-view/filter-view";
 
 //pages
 
@@ -45,12 +45,17 @@
   @import "layout/footer/footer-s";
   @import "layout/btn/btn-s";
 
+  //forms
+  @import "forms/view-btn/view-btn-s";
+  @import "forms/filter-listing-links/filter-listing-links-s";
+
   //blocks
   @import "blocks/links/links-s";
   @import "blocks/about-us/about-s";
   @import "blocks/team/team-s";
   @import "blocks/clients/clients-s";
-  @import "blocks/image-page-header/b-image-page-header-s";
+  @import "blocks/image-page-header/image-page-header-s";
+  @import "blocks/filter-view/filter-view-s";
 
   //common
   @import "common/defaults/defaults-s";
@@ -69,7 +74,8 @@
 
   //blocks  ;
   @import "blocks/about-us/about-m";
-  @import "blocks/image-page-header/b-image-page-header-m";
+  @import "blocks/image-page-header/image-page-header-m";
+  @import "blocks/filter-view/filter-view-m";
 
 }
 
@@ -85,7 +91,7 @@
   @import "common/defaults/defaults-l-m";
 
   //blocks  ;
-  @import "blocks/image-page-header/b-image-page-header-l-m";
+  @import "blocks/image-page-header/image-page-header-l-m";
 
 }
 

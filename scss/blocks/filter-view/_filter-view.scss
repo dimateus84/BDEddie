@@ -1,0 +1,10 @@
+.b-filter-view {
+  @include clearfix();
+  margin-bottom: 4.5%;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: $gothamhtf-black;
+  text-align: center;
+  line-height: 90px;
+  height: 90px;
+}

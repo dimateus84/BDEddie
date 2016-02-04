@@ -1,0 +1,29 @@
+.filter-wrapper {
+  height: 100%;
+  width: 100%;
+  float: none;
+
+  .form-filter-listing-links {
+    line-height: 26px;
+
+    fieldset {
+
+      legend {
+        float: none;
+      }
+    }
+
+    .form-item {
+      float: none;
+
+      label:before {
+        content: '';
+      }
+
+      input[type="radio"] + label {
+           padding: 0 4px;
+      }
+    }
+  }
+}
+
