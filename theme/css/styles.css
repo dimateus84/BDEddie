@@ -1512,7 +1512,7 @@ html[xmlns] .flexslider .slides {
     line-height: 48px;
     letter-spacing: 1px;
     font-size: 12px;
-    padding: 0 3%;
+    padding: 0 2%;
   }
   .b-list-items .item img {
     margin: 0 auto;
@@ -1525,6 +1525,21 @@ html[xmlns] .flexslider .slides {
   }
   .b-list-items .item .description-wrapper .description {
     margin-bottom: 5px;
+  }
+
+  .b-pager {
+    background: red;
+  }
+  .b-pager .btn-wrapper {
+    width: 30.7%;
+    margin: 0 auto 5%;
+    background-color: #ec232d;
+  }
+  .b-pager .btn-wrapper .btn {
+    color: #fff;
+    font-size: 18px;
+    line-height: 92px;
+    text-transform: uppercase;
   }
 
   body {

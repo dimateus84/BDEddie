@@ -92,215 +92,224 @@
 </div>
 
 <div class="b-list-items width-padding">
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>OFFICE SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>OFFICE SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>OFFICE SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>OFFICE SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>OFFICE SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>OFFICE SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
-  <div class="item">
-    <h3>RETAIL SPACE AVAILABLE</h3>
+<div class="item">
+  <h3>RETAIL SPACE AVAILABLE</h3>
 
-    <div class="img-links">
-      <a href="#">
-        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
-      </a>
+  <div class="img-links">
+    <a href="#">
+      <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+    </a>
+  </div>
+  <div class="description-wrapper">
+    <h4>The Quarters @ Kelley Pointe</h4>
+
+    <div class="description">
+      <div class="adress">2537 S. Kelly Ave
+        Edmond, Oklahoma 73013
+      </div>
+      <div class="price">$15 - $18 /SF/Year</div>
     </div>
-    <div class="description-wrapper">
-      <h4>The Quarters @ Kelley Pointe</h4>
-
-      <div class="description">
-        <div class="adress">2537 S. Kelly Ave
-          Edmond, Oklahoma 73013
-        </div>
-        <div class="price">$15 - $18 /SF/Year</div>
-      </div>
-      <div class="more-info">
-        <a href="">MORE INFO</a>
-      </div>
+    <div class="more-info">
+      <a href="">MORE INFO</a>
     </div>
   </div>
+</div>
 
 </div>
 
+<div class="b-pager">
+
+  <div class="btn-wrapper">
+    <a href="#" class="btn">
+      NEXT PAGE >
+    </a>
+  </div>
+
+</div>
 
 <div class="b-links width-padding">
   <div class="links">
