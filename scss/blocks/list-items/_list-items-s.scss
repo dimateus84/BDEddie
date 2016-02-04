@@ -1,0 +1,42 @@
+.b-list-items {
+
+
+  .item {
+    width: 100%;
+    margin-right: 0%;
+    font-size: 12px;
+    text-align: center;
+
+    &:nth-child(3n) {
+      margin-right: 0%;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    h3 {
+      line-height: 48px;
+      letter-spacing: 1px;
+      font-size: 12px;
+      padding: 0 2%;
+    }
+
+    img {
+      margin: 0 auto;
+    }
+
+    .description-wrapper {
+      padding: 10px 2%;
+
+      h4 {
+        margin: 0 0 10px;
+      }
+
+      .description {
+        margin-bottom: 5px;
+
+      }
+    }
+  }
+}

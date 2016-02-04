@@ -1,0 +1,37 @@
+.b-list-items {
+
+
+  .item {
+    width: 48%;
+    margin-bottom: 70px;
+    margin-right: 3%;
+    font-size: 16px;
+
+    &:nth-child(3n) {
+      margin-right: 3%;
+    }
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    h3 {
+      line-height: 78px;
+      letter-spacing: 1.5px;
+      font-size: 16px;
+    }
+
+    .description-wrapper {
+      padding: 30px 6.9%;
+
+      h4 {
+        margin: 0 0 30px;
+      }
+
+      .description {
+        margin-bottom: 25px;
+
+      }
+    }
+  }
+}

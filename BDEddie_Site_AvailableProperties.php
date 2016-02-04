@@ -46,47 +46,257 @@
         <fieldset>
           <legend>filter listing by:</legend>
 
-        <div class="field-filter-all field-item">
-          <div class="form-item form-type-radio">
+          <div class="field-filter-all field-item">
+            <div class="form-item form-type-radio">
 
-            <input id="filter-all" type="radio" name="radio" checked hidden/>
-            <label for="filter-all">all</label>
+              <input id="filter-all" type="radio" name="radio" checked hidden/>
+              <label for="filter-all">all</label>
 
+            </div>
           </div>
-        </div>
 
-        <div class="field-filter-retail field-item">
-          <div class="form-item form-type-radio">
+          <div class="field-filter-retail field-item">
+            <div class="form-item form-type-radio">
 
-            <input id="filter-retail" type="radio" name="radio" hidden/>
-            <label for="filter-retail">retail</label>
+              <input id="filter-retail" type="radio" name="radio" hidden/>
+              <label for="filter-retail">retail</label>
 
+            </div>
           </div>
-        </div>
 
-        <div class="field-filter-office field-item">
-          <div class="form-item form-type-radio">
+          <div class="field-filter-office field-item">
+            <div class="form-item form-type-radio">
 
-            <input id="filter-office" type="radio" name="radio" hidden/>
-            <label for="filter-office">office</label>
+              <input id="filter-office" type="radio" name="radio" hidden/>
+              <label for="filter-office">office</label>
 
+            </div>
           </div>
-        </div>
 
-        <div class="field-filter-residential field-item">
-          <div class="form-item form-type-radio">
+          <div class="field-filter-residential field-item">
+            <div class="form-item form-type-radio">
 
-            <input id="filter-residential" type="radio" name="radio" hidden/>
-            <label for="filter-residential">residential</label>
+              <input id="filter-residential" type="radio" name="radio" hidden/>
+              <label for="filter-residential">residential</label>
 
+            </div>
           </div>
-        </div>
         </fieldset>
 
       </form>
 
     </div>
 
+  </div>
+
+</div>
+
+<div class="b-list-items width-padding">
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>OFFICE SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>OFFICE SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>OFFICE SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-2.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="item">
+    <h3>RETAIL SPACE AVAILABLE</h3>
+
+    <div class="img-links">
+      <a href="#">
+        <img src="theme/images/tmp/list-view-img-1.jpg" alt="1"/>
+      </a>
+    </div>
+    <div class="description-wrapper">
+      <h4>The Quarters @ Kelley Pointe</h4>
+
+      <div class="description">
+        <div class="adress">2537 S. Kelly Ave
+          Edmond, Oklahoma 73013
+        </div>
+        <div class="price">$15 - $18 /SF/Year</div>
+      </div>
+      <div class="more-info">
+        <a href="">MORE INFO</a>
+      </div>
+    </div>
   </div>
 
 </div>

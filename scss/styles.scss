@@ -30,6 +30,7 @@
 @import "blocks/clients/clients";
 @import "blocks/image-page-header/image-page-header";
 @import "blocks/filter-view/filter-view";
+@import "blocks/list-items/list-items";
 
 //pages
 
@@ -56,6 +57,7 @@
   @import "blocks/clients/clients-s";
   @import "blocks/image-page-header/image-page-header-s";
   @import "blocks/filter-view/filter-view-s";
+  @import "blocks/list-items/list-items-s";
 
   //common
   @import "common/defaults/defaults-s";
@@ -76,6 +78,7 @@
   @import "blocks/about-us/about-m";
   @import "blocks/image-page-header/image-page-header-m";
   @import "blocks/filter-view/filter-view-m";
+  @import "blocks/list-items/list-items-m";
 
 }
 
@@ -92,6 +95,7 @@
 
   //blocks  ;
   @import "blocks/image-page-header/image-page-header-l-m";
+  @import "blocks/list-items/list-items-l-m";
 
 }
 
