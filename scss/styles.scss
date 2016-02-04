@@ -26,6 +26,7 @@
 @import "blocks/about-us/about";
 @import "blocks/team/team";
 @import "blocks/clients/clients";
+@import "blocks/image-page-header/b-image-page-header";
 
 //pages
 
@@ -46,6 +47,7 @@
   @import "blocks/about-us/about-s";
   @import "blocks/team/team-s";
   @import "blocks/clients/clients-s";
+  @import "blocks/image-page-header/b-image-page-header-s";
 
   //common
   @import "common/defaults/defaults-s";
@@ -64,6 +66,7 @@
 
   //blocks  ;
   @import "blocks/about-us/about-m";
+  @import "blocks/image-page-header/b-image-page-header-m";
 
 }
 
@@ -77,6 +80,9 @@
 
   //common
   @import "common/defaults/defaults-l-m";
+
+  //blocks  ;
+  @import "blocks/image-page-header/b-image-page-header-l-m";
 
 }
 

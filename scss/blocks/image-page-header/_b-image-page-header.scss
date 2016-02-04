@@ -1,0 +1,17 @@
+.b-image-page-header {
+  background: image_url("bg/bg-available-properties.jpg") no-repeat;
+  background-size: 100% auto;
+  height: 600px;
+  margin-bottom: 4.5%;
+  position: relative;
+
+  h2 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%,-50%));
+    white-space: nowrap;
+    font-size: 80px;
+  }
+}

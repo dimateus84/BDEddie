@@ -714,6 +714,9 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
   text-transform: uppercase;
@@ -896,6 +899,26 @@ a {
 .b-clients .clients-list-wrapper .right-part {
   float: right;
   width: 30%;
+}
+
+.b-image-page-header {
+  background: url('../images/bg/bg-available-properties.jpg') no-repeat;
+  background-size: 100% auto;
+  height: 600px;
+  margin-bottom: 4.5%;
+  position: relative;
+}
+.b-image-page-header h2 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-size: 80px;
 }
 
 /*
@@ -1283,6 +1306,14 @@ html[xmlns] .flexslider .slides {
     width: 100%;
   }
 
+  .b-image-page-header {
+    height: 140px;
+    background-size: cover;
+  }
+  .b-image-page-header h2 {
+    font-size: 18px;
+  }
+
   body {
     font-size: 12px;
   }
@@ -1384,6 +1415,13 @@ html[xmlns] .flexslider .slides {
     border-left: 1px solid #d6d6d7;
     padding-left: 2%;
   }
+
+  .b-image-page-header {
+    height: 273px;
+  }
+  .b-image-page-header h2 {
+    font-size: 37px;
+  }
 }
 @media (min-width: 1130px) and (max-width: 1629px) {
   .site-container {
@@ -1424,6 +1462,13 @@ html[xmlns] .flexslider .slides {
 
   h2 {
     font-size: 25px;
+  }
+
+  .b-image-page-header {
+    height: 412px;
+  }
+  .b-image-page-header h2 {
+    font-size: 50px;
   }
 }
 @media (min-width: 1630px) {
