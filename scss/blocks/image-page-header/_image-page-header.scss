@@ -1,9 +1,16 @@
 .b-image-page-header {
-  background: image_url("bg/bg-available-properties.jpg") no-repeat;
   background-size: 100% auto;
   height: 600px;
   margin-bottom: 4.5%;
   position: relative;
+
+  .page-available-properties & {
+    background: image_url("bg/bg-available-properties.jpg") no-repeat;
+  }
+
+  .page-contact-us & {
+    background: image_url("bg/bg-contact-us.jpg") no-repeat;
+  }
 
   h2 {
     color: #fff;

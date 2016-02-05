@@ -5,13 +5,8 @@
   <?php include 'tpl/layout/header.inc'; ?>
   <div class="content-wrapper site-container">
 
-    <div class="b-slider width-padding">
-      <div class="flexslider">
-        <ul class="slides">
-          <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
-          <li><img src="theme/images/tmp/slider-image-1.jpg" alt=""/></li>
-        </ul>
-      </div>
+    <div class="b-image-page-header">
+      <h2>contact us</h2>
     </div>
 
     <div class="b-links width-padding">

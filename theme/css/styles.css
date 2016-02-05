@@ -991,11 +991,16 @@ a {
 }
 
 .b-image-page-header {
-  background: url('../images/bg/bg-available-properties.jpg') no-repeat;
   background-size: 100% auto;
   height: 600px;
   margin-bottom: 4.5%;
   position: relative;
+}
+.page-available-properties .b-image-page-header {
+  background: url('../images/bg/bg-available-properties.jpg') no-repeat;
+}
+.page-contact-us .b-image-page-header {
+  background: url('../images/bg/bg-contact-us.jpg') no-repeat;
 }
 .b-image-page-header h2 {
   color: #fff;
@@ -1789,7 +1794,7 @@ html[xmlns] .flexslider .slides {
   }
 
   .b-pager .pager-wrapper .pager-number-wrapper {
-    width: 37%;
+    width: 35.5%;
     float: none;
     margin: 0 auto;
   }
