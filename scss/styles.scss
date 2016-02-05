@@ -53,6 +53,7 @@
   //forms
   @import "forms/view-btn/view-btn-s";
   @import "forms/filter-listing-links/filter-listing-links-s";
+  @import "forms/contact/contact-s";
 
   //blocks
   @import "blocks/links/links-s";
@@ -89,6 +90,9 @@
   @import "blocks/pager/pager-m";
   @import "blocks/eddie-enterprises/eddie-enterprises-m";
 
+  //forms
+  @import "forms/contact/contact-m";
+
 }
 
 @media (min-width: 1130px) and (max-width: $width + 29) {
@@ -105,6 +109,9 @@
   //blocks  ;
   @import "blocks/image-page-header/image-page-header-l-m";
   @import "blocks/list-items/list-items-l-m";
+
+  //forms
+  @import "forms/contact/contact-l-m";
 
 }
 
