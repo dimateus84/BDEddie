@@ -26,7 +26,14 @@
     initFlexslider();
     initMobileNav();
     initColum();
+    initSelect();
 
+  }
+
+  function initSelect() {
+    $(document).ready(function () {
+      $('select').select2();
+    });
   }
 
   function initColum() {

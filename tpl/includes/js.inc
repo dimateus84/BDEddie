@@ -5,3 +5,4 @@
 <script type="text/javascript" src="theme/js/js.js"></script>
 <script src="theme/js/lib/jquery.flexslider.js"></script>
 <script src="theme/js/lib/jquery.columnizer.js"></script>
+<script src="theme/js/lib/select2.min.js"></script>

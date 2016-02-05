@@ -12,6 +12,7 @@
 @import "forms/forms";
 @import "forms/view-btn/view-btn";
 @import "forms/filter-listing-links/filter-listing-links";
+@import "forms/contact/contact";
 
 //layout
 @import "layout/header/header";
@@ -32,11 +33,13 @@
 @import "blocks/filter-view/filter-view";
 @import "blocks/list-items/list-items";
 @import "blocks/pager/pager";
+@import "blocks/eddie-enterprises/eddie-enterprises";
 
 //pages
 
 //modules
 @import "modules/flexslider";
+@import "modules/select2";
 
 
 @media (max-width: $width-tablet - 1) {
@@ -60,6 +63,7 @@
   @import "blocks/filter-view/filter-view-s";
   @import "blocks/list-items/list-items-s";
   @import "blocks/pager/pager-s";
+  @import "blocks/eddie-enterprises/eddie-enterprises-s";
 
 
   //common
@@ -83,6 +87,7 @@
   @import "blocks/filter-view/filter-view-m";
   @import "blocks/list-items/list-items-m";
   @import "blocks/pager/pager-m";
+  @import "blocks/eddie-enterprises/eddie-enterprises-m";
 
 }
 

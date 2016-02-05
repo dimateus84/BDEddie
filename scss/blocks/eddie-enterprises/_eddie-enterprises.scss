@@ -1,0 +1,30 @@
+.b-eddie-enterprises {
+  margin-bottom: 5%;
+  color: #6d6e71;
+
+
+  h2 {
+    font-size: 36px;
+    color: #6d6e71;
+    font-family: $gothamhtf-black;
+    margin-bottom: 2.5%;
+    letter-spacing: 3px;
+  }
+
+  .col {
+    width: 30.7%;
+    margin-right: 3.3%;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding-right: 5%;
+
+    &.col-3 {
+      margin-right: 0;
+    }
+
+    a {
+      color: #ef4136;
+      text-decoration: underline;
+    }
+  }
+}

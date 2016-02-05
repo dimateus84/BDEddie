@@ -1,0 +1,106 @@
+.form-contact-wrapper {
+  padding: 6% 0 8%;
+  background-color: #e7e7e8;
+
+  .form-contact {
+
+    fieldset {
+      margin: 0;
+      border: 0;
+      padding: 0;
+
+      legend {
+        font-size: 36px;
+        color: #6d6e71;
+        font-family: $gothamhtf-black;
+        margin-bottom: 2.5%;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+    }
+
+    .form-item {
+      @include clearfix();
+      width: 52.5%;
+      height: 75px;
+      margin: 0 0 4%;
+
+      label {
+        float: left;
+        width: 19%;
+        color: #6d6e71;
+        letter-spacing: 2px;
+        position: relative;
+        top: 50%;
+        left: 0;
+        @include transform(translate(0, -50%));
+      }
+
+      input, .form-select {
+        float: right;
+        width: 81%;
+        height: 100%;
+        border: none;
+
+        font-size: 48px;
+      }
+    }
+
+    .field-describes {
+
+      .form-item {
+        height: 142px;
+        margin-bottom: 5%;
+
+        label {
+          float: none;
+          width: 100%;
+          margin-bottom: 4%;
+          position: static;
+          transform: none;
+        }
+
+        .form-select {
+          height: 75px;
+
+          a {
+            height: 75px;
+            border: none;
+            background-image: none;
+            border-radius: 0;
+
+            .select2-arrow {
+              width: 83px;
+              border-radius: 0;
+              border: none;
+              background-color: #d1d2d4;
+              background-image: none;
+
+              b {
+                @include oneline-sprite-box($icons, select-str);
+                position: relative;
+                top: 50%;
+                left: 50%;
+                @include transform(translate(-50%, -50%));
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+   .btn-wrapper {
+     padding-left: 9.9%;
+     text-align: left;
+
+     .btn {
+       background: #ef4036;
+       font-size: 18px;
+       border: none;
+       padding: 1.9% 0;
+     }
+   }
+  }
+
+}
